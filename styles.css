@@ -1,0 +1,89 @@
+body {
+    background: #353434;
+    font-family: "Maiden Crimes";
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+.video-container {
+    margin: 10px;
+    width: 630px;
+}
+
+.video {
+    width: 630px;
+    height: 385px;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    border: 10px solid transparent;
+    border-image: linear-gradient(45deg, red, blue);
+    border-image-slice: 1;
+}
+
+h4 {
+    margin-top: 20px;
+    color: #ffffff;
+}
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* Header */
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center horizontally */
+    margin: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav li {
+    font-size: 25px;
+}
+
+.navigation {
+    width: 981px;
+    height: 65px;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    border: 10px solid transparent;
+    border-image: linear-gradient(45deg, red, blue);
+    border-image-slice: 1;
+    margin-top: 20px; /* Adjust margin-top as needed */
+}
+/* For inlog */
+.logo li {
+    margin: 10px;
+}
+.logo li:last-child {
+    width: 125px;
+    height: 45px;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    border: 5px solid transparent;
+    border-image: linear-gradient(45deg, red, blue);
+    border-image-slice: 1;
+}
+
