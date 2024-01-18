@@ -9,7 +9,7 @@ main{
     margin: 0;
 }
 .video-container {
-    margin: 10px;
+    margin: 40px;
     width: 630px;
 }
 
@@ -31,6 +31,11 @@ h4 {
 a {
     color: #ffffff;
     text-decoration: none;
+}
+p {
+    margin: 0px;
+    color: #666565;
+    font-size: small;
 }
 
 /* Header */
@@ -86,4 +91,41 @@ nav li {
     border-image: linear-gradient(45deg, red, blue);
     border-image-slice: 1;
 }
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+.foot-row {
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+.foot {
+    width: 325px;
+    height: 70px;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    border: 5px solid transparent;
+    border-image: linear-gradient(45deg, red, blue);
+    border-image-slice: 1;
+}
 
+.foot-box {
+    text-align: left;
+}
+
+.foot-box a {
+    text-decoration: none;
+    color: #666565;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+.foot-box a:hover {
+    color: white;
+}
