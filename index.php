@@ -31,7 +31,7 @@ include "header.php";
             <div class="video">
                 <iframe width="610" height="365" src="https://www.youtube.com/embed/WQoN6fUcmb8?si=r1cuX6TwLMdVFxUH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
-            <h4>Code Black feat. Elle Vee - Wild Ones!</h4>
+            <h4>Code Black feat. Elle Vee - Wild Ones</h4>
         </div>
     </main>
 </body>
