@@ -1,4 +1,14 @@
 <?php
+if(!empty($_SESSION['winkelwagen']))
+{
+    $total = 0;
+    foreach($_SESSION['winkelwagen'] as $key => $product)
+    {
+        $total += $product[1];
+    }
+
+    echo "<div><a href=\"cart.php\">Winkelwagen (Totaal: {$total})</a></div>";
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">

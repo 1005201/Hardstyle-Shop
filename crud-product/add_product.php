@@ -1,7 +1,7 @@
 <?php
 
-require_once 'product.php';
-require_once 'connection.php';
+require_once '../product.php';
+require_once '../connection.php';
 
 // Make connection with Database class
 $database = new Database();
@@ -63,8 +63,11 @@ $database->closeConnection();
     <input type="number" id="price" name="price" step="0.01" required>
     <br>
     <button type="submit">Add Product</button>
+    <!-- Button to the dashboard.php-->
+    <span class="right"><a href="../dashboard.php" class="text-red" style="text-decoration: none;">Back to Dashboard</a></span>
 </form>
-<!-- Button to the product_list.php-->
-<a href="product_list.php">Back to Product List</a>
+
+
+
 </body>
 </html>

@@ -29,6 +29,7 @@ $database->closeConnection();
 <!-- Table to display product details -->
 <table border="1">
     <tr>
+        <th>ID</th>
         <th>Product Name</th>
         <th>Description</th>
         <th>Quantity</th>
@@ -37,20 +38,21 @@ $database->closeConnection();
     </tr>
     <?php foreach ($products as $product): ?>
         <tr>
+            <td><?php echo $product['id']; ?></td>
             <td><?php echo $product['product_name']; ?></td>
             <td><?php echo $product['description']; ?></td>
             <td><?php echo $product['quantity']; ?></td>
             <td><?php echo $product['price']; ?></td>
             <td>
-                <a href="edit_product.php?id=<?php echo $product['id']; ?>">Edit</a>
-                | <a href="delete_product.php?id=<?php echo $product['id']; ?>">Delete</a>
+                <a href="crud-product/edit_product.php?id=<?php echo $product['id']; ?>">Edit</a>
+                | <a href="crud-product/delete_product.php?id=<?php echo $product['id']; ?>">Delete</a>
             </td>
         </tr>
     <?php endforeach; ?>
 </table>
 
 <!-- Button to navigate to the Add Product page -->
-<a href="add_product.php">Add New Product</a>
+<a href="crud-product/add_product.php">Add New Product</a>
 
 </body>
 </html>
